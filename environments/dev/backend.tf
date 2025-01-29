@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "vital-charger-424406-u2-tfstate"
     prefix = "env/dev"
   }
 }
